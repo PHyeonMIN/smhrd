@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.ir.ForNode"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.pept.transport.Connection"/>
+<fullyQualifiedTypeName name="javax.websocket.SendResult"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.websocket.Session"/>
+<fullyQualifiedTypeName name="com.message.DAO.memberDAO"/>
+<fullyQualifiedTypeName name="com.message.DTO.memberDTO"/>
+<fullyQualifiedTypeName name="com.message.member.LoginService"/>
+<fullyQualifiedTypeName name="com.message.member.JoinService"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="com.message.member.DeleteService"/>
+<fullyQualifiedTypeName name="com.message.member.LogOutService"/>
+<fullyQualifiedTypeName name="com.message.member.UpdateService"/>
+<fullyQualifiedTypeName name="com.inter.Command"/>
+<fullyQualifiedTypeName name="Model.memberDTO"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="Model.CalendarDTO"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="MapDAO.MapDAO"/>
+<fullyQualifiedTypeName name="MapDTO.MapVO"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.PHM_travel_mapDTO.travel_planDTO"/>
+<fullyQualifiedTypeName name="com.MapDAO.MapDAO"/>
+<fullyQualifiedTypeName name="com.MapDTO.MapDTO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.PHM_travel_mapDTO.PHM_travel_planDTO"/>
+<fullyQualifiedTypeName name="com.PHM_travel_mapDTO.PHM_travel_mapDTO"/>
+<fullyQualifiedTypeName name="com.PHM_travel_mapDAO.PHM_travel_planDAO"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.boardDTO.tm_boardDTO"/>
+<fullyQualifiedTypeName name="com.boardDAO.tm_boardDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.snsDTO.tm_snsDTO"/>
+<fullyQualifiedTypeName name="com.memberDTO.tm_memberDTO"/>
+</qualifiedTypeNameHistroy>

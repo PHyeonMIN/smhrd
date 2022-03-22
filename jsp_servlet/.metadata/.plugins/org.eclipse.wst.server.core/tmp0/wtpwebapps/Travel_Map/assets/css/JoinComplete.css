@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { 
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+body { 
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../img/travelbackgroundimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title { 
+    width: 30vw;
+    height: 30vh;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f6f6f6;
+    border-radius: 3px;
+}
+
+.title > p { 
+    margin-left: 3vw;
+}
+
+.warf { 
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.warf > a:nth-child(1){ 
+    font-size: 14px;
+    text-decoration-line: none;
+    background-color: #52C999;
+    font-weight: bold;
+    color: black;
+    border-radius: 3px;
+    padding-left: 9vw;
+    padding-right:9vw;
+    padding-top: 1.25vh;
+    padding-bottom: 1vh;
+}
+
+.warf > a:last-child{ 
+    font-size: 14px;
+    text-decoration-line: none;
+    background-color: #52C999;
+    font-weight: bold;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8.635vw;
+    padding-right:8.635vw;
+    padding-top: 1.25vh;
+    padding-bottom: 1vh;
+}

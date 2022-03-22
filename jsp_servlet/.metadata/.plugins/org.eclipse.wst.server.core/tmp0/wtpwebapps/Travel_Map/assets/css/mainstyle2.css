@@ -1,0 +1,126 @@
+#side_all { 
+    background-color: #D3F4FF;
+    width: 500px;
+    height: 950px;
+    float: left;
+    
+}
+
+#side_one {
+    height: 10%;
+    background-color: #006AC3;
+}
+
+#side_two {
+    height: 5%;
+    background-color: #0080C4;
+    font-size: 28px;
+}
+
+
+#side_three {
+    height: 5%;
+    background-color: #0094BD;
+}
+    .side_menu { 
+        float:left;
+        list-style: none;
+    }
+
+    .side_menu ul { 
+        
+    }
+    
+    .side_menu li { 
+        list-style: none;
+        display: inline-block;
+        line-height: 10px;
+        margin-right: 20px;
+    }
+
+    li button { 
+        background-color: #52C999;
+        width: 80px;
+        height: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 8px;
+        border : none;
+    }
+
+    li button a { 
+        color: black;
+        text-decoration: none;
+    }
+     li button:hover { 
+         cursor: pointer;
+     }
+
+
+
+
+#side_four {
+    height: 10%;
+    background-color: #00A7B1;
+}
+        #search_keyword_query {
+            float: left;
+            margin-top: 5px;
+            margin-left: 5px; 
+            width: 400px;
+            height: 50px;
+            border-radius: 8px;
+            border-style: none;
+        }
+
+        #search_keyword_query_button { 
+            float: left;
+            height: 53px;
+            margin-top: 5px;
+            margin-left: 2px;
+            width: 55px;
+            background-color: white;
+            border-radius: 8px;
+            border-style: none;
+        }
+        #search_keyword_query_button:hover { 
+            background-color: whitesmoke;
+            cursor: pointer;
+        }
+
+        #search_keyword_query_button img { 
+            width: 30px;
+        }
+
+
+
+
+
+#side_five {
+    height: 10%;
+    background-color: #00B9A4;
+}
+    #side_five ul { 
+        list-style: none;
+        float: left;
+    }
+    #side_five ul li { 
+        float: left;
+        margin-right: 20px;
+    }
+    #side_five ul li button { 
+        height:75px;
+        margin-right: 50px;
+    }
+    #side_five  ul li button:hover { 
+        cursor: pointer;
+    }
+    #side_five ul li button span img{ 
+        width: 50px;
+        height: 50px;
+    }
+
+    #side_six { 
+        height: 60%;
+        background-color: #E7E885;
+    }

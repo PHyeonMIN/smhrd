@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.DTO&apos; to &apos;com.message.DTO&apos;&#x0D;&#x0A;- Original project: &apos;MessageSystem&apos;&#x0D;&#x0A;- Original element: &apos;MessageSystem/src/com.DTO&apos;&#x0D;&#x0A;- Renamed element: &apos;MessageSystem/src/com.message.DTO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.DTO&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.DTO" name="com.message.DTO" qualified="false" references="true" stamp="1638857179234" textual="false" version="1.0"/>
+</session>

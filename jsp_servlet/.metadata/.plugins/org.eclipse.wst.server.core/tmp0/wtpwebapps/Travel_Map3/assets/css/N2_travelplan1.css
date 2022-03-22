@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+ *{ 
+    font-family: 'NanumBarunGothic';
+    
+}
+
+#side_bar { 
+    background-color: #fff;
+    width: 100%;
+    height: 5vh;
+    font-size: 20px;
+    border-bottom: 1px solid #eee;
+}   
+#side_bar b { 
+    margin-top: 20px;
+    margin-left: 5vw;
+    font-family: 'S-CoreDream-9Black';
+    }
+    #side_bar button{ 
+        float: right;
+        margin-right: 10px;
+        margin-top: 1.25vh;
+        border-radius: 3px;
+        font-weight: bold;
+        background-color:rgb(81, 200, 152) ;
+        border : none;
+        box-shadow: 0px 4px 16px rgb(81, 200, 152, 0.3);
+    }
+    #side_bar button:focus { 
+        background-color: #157A88;
+        cursor: pointer;
+    }
+    #side_bar button:hover { 
+        background-color: #157A88;
+        cursor: pointer;
+    }
+
+
+
+#side_all { 
+    background-color: #CDFBE4;
+    width: 500px;
+    height: 95vh;;
+    float: left;
+    
+}
+
+
+#side_one {
+    height: 7%;
+    background-color: #CDFBE4;
+    border-bottom: 1px solid #eee;
+}
+    .side_menu { 
+        float:left;
+        list-style: none;
+    }
+    
+    .side_menu li { 
+        list-style: none;
+        display: inline-block;
+        line-height: 10px;
+        margin-right: 20px;
+        transform: translate(17%, -0%);
+    }
+
+    .side_button { 
+        background-color: #52C999;
+        width: 80px;
+        height: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 3px;
+        border : none;
+        box-shadow: 0px 4px 16px rgb(81, 200, 152, 0.3);
+    }
+    .side_button:focus { 
+        background-color: #157A88;
+        cursor: pointer;
+    }
+    .side_button:hover { 
+        cursor: pointer;
+    }
+
+    li button a { 
+        color: black;
+        text-decoration: none;
+        box-shadow: 0px 4px 16px rgb(81, 200, 152, 0.3);
+    }
+
+#side_two { 
+    margin-top: 0px;
+    height: 35%;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+    .travel_plan { 
+        background-color: #52C999;
+        width: 300px;
+        height: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 3px;
+        border : none;
+    }
+
+
+    #side_two ul {
+
+        margin: 0px;
+        list-style: none;
+        padding-left: none;
+        text-align: center;
+        transform: translate(-4%, 20%);
+    }
+    
+    #side_two ul li { 
+        margin: 20px;
+        text-align: center; 
+    }
+    
+    .travel_plan {
+        box-shadow: 0px 4px 16px rgb(81, 200, 152, 0.3);
+    }
+    .travel_plan:hover { 
+        cursor: pointer;
+    }
+
+
+
+#side_three { 
+    text-align: center;
+    height: 59.2%;
+    background-color: #fff;
+    }
+

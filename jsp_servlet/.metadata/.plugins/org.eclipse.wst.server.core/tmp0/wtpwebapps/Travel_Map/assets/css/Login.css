@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { 
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+body { 
+    background-image: url("../../img/travelbackgroundimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 1.2vw;
+}
+
+.title div { 
+    margin-top: 1vh;
+}
+.title b { 
+    font-family: 'S-CoreDream-9Black';
+    font-size: 1.45vw;
+    color: #f6f6f6;
+}
+.title span { 
+    color: #f6f6f6;
+}
+.title input { 
+    width: 19vw;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #f6f6f6bd;
+    background-color: transparent;
+    outline: none;
+    color: #f6f6f6;
+    font-weight: bold;
+}
+.title input::-webkit-input-placeholder { 
+    color: #f6f6f6e0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.title button { 
+    font-size: 14px;
+    border-radius: 3px;
+    border-style: none;
+    font-weight: bold;
+    background-color: #52C999;
+    width: 20vw;
+    height: 4vh;
+}
+.title button:hover { 
+    cursor: pointer;
+}
+
+.title a { 
+    font-size: 14px;
+    text-decoration-line: none;
+    background-color: #52C999;
+    font-weight: bold;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8.635vw;
+    padding-right:8.635vw;
+    padding-top: 1.25vh;
+    padding-bottom: 1vh;
+    
+}
