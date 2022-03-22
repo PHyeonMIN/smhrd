@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="a">0</p>
+    <button onclick="up()">+1증가</button>
+    <button onclick="down()">-1감소</button>
+    <script>
+        var a = document.getElementById("a")    // p전부를 말함
+
+        function up(){
+            let num = parseInt(a.innerText)
+            a.innerText = num+1
+        }
+        function down(){
+            let num = parseInt(a.innerText)
+            if(num!=0){
+                 num -=1
+            }
+            a.innerText = num
+        }
+
+    </script>
+</body>
+</html>

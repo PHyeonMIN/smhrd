@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="txt">HELLO WORLD!!</p>
+    <button onclick="change()">바꾸기</button>
+
+
+    <script>
+        function change(){
+            //p태그의 글씨를 바꾸기
+            var txt = document.getElementById("txt")    //타입 객체를 받아옴
+            //innerText : 태그사이의 텍스트 가지고 오고 싶을때
+            //alert(txt.innerText)
+            //innerHTML : 태그사이의 HTML 요소(텍스트, 태그)를 가지고 오고 싶을떄
+            //alert(txt.innerHTML)
+            //txt.innerText = "수정!"     //텍스트만 추가 가능
+            txt.innerHTML ="<i>수정</i>완료"
+
+        }
+
+
+    </script>
+</body>
+</html>

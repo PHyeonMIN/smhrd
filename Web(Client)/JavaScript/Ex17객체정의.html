@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="person.info()">정보출력</button>
+    <button onclick="person.nextyear()">2022년!</button>
+    <button onclick="person.addhobby(ㅋ)">취미추가</button>
+    <script>
+        // 객체 정의
+        let person = {
+            name : "나예호",    //name(속성이름-key),나예호(속성값-value)
+            age : 26,
+            gender : "male",
+            hobby : ["별찍기","영화보기"],
+            info : function(){
+                alert(this.name+" "+this.age+" "+this.gender+" "+this.hobby)
+            },
+            nextyear : function(){
+                this.age++
+                alert("나이 : "+this.age)
+            },
+            addhobby : function(newhobby){  //1.hobby에 값추가  //취미(hobby) 출력
+               
+                this.hobby.push(newhobby)
+                alert("취미 : "+this.hobby)
+            }
+        }
+    </script>
+</body>
+</html>

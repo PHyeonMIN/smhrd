@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,td{
+        border: 1px solid;
+        text-align: center;
+    }
+</style>
+<body>
+    <script>
+        var subject = []
+        var score = []
+        var sum = 0
+
+        var cnt = Number(prompt("과목수를 입력해주세요 >> "))
+
+
+        for(let i=0; i<cnt ; i++){
+            subject[i] = prompt("점수를 입력할 과목명을 입력해주세요 >> ")
+        }
+        for(let i = 0; i<cnt ; i++){
+            score[i] = Number(prompt(subject[i]+"의 점수 입력>>"))
+            sum+=score[i]
+        }
+        var avg = parseInt(sum/cnt)
+
+
+        document.write("<table border='1'  style='text-align: center;'><tr>")
+        for(let i=0;i<cnt;i++){
+            document.write("<td>"+subject[i]+"</td>")
+        }
+        document.write("<td>총합</td>")
+        document.write("<td>평균</td></tr><tr>")
+        
+        for(let i=0;i<cnt;i++){
+            document.write("<td>"+score[i]+"</td>")
+        }
+        document.write("<td>"+sum+"</td>")
+        document.write("<td>"+avg+"</td>")
+        document.write("</tr></table>")
+
+        // var text = "<table>"+sum+  
+         // text +="</table>"
+    </script>
+</body>
+</html>

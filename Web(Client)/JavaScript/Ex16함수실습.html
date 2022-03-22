@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var emoji = prompt("출력할 이모티콘 입력")
+        var row = Number(prompt("줄 수 입력"))
+        pyramind(emoji,row)
+        
+        function pyramind(emoji,row){
+
+            for(let i =1; i<=row; i++){
+                for(let j=0;j<i;j++){
+                    document.write(emoji)
+                }
+                document.write("<br>")
+            }
+        }
+
+    </script>
+</body>
+</html>

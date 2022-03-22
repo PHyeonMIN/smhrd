@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>JQUERY 글씨바꾸기</span>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>
+        $('span').on({
+            'mouseover':function(){
+                $(this).text("마우스올린상태")
+            },
+            'mouseout' : function(){
+                $(this).text("마우스내린상태")
+            }
+        })
+
+    </script>
+
+</body>
+</html>

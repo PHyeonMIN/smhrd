@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 20px;
+        }
+        .a{
+            background-color: green;
+            top:30px;
+            left: 30px;
+            /* relative : 초기위치에서 상하좌우이동가능 */
+            /* static : 위에서 아래로 순서대로 배치 */
+            position: static;
+        }
+        .d1{
+            background-color: yellow;
+            top:30px;
+            left: 30px;
+            /* absolute : 절대위치를 좌표로 설정 (Body 기준) */
+            /* fixed : 화면을 기준으로 절대위치 좌표 설정 */
+            position: fixed;
+            
+        }
+    </style>
+</head>
+<body>
+    <article class="a">
+        <div></div>
+        <div></div>
+        <div class="d1">div</div>
+        <div></div>
+        <div></div>
+    </article>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

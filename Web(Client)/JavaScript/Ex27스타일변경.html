@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <p id="p1">텍스트 색깔, 크기, 굵기 변경</p>
+    <button onclick="ch()">변경!</button>
+
+    <script>
+        let p1 = document.getElementById("p1")
+
+
+       function ch(){
+             p1.style.color = "tomato"       //글씨색깔
+             p1.style.fontSize ="30px"       //글씨크기
+             p1.style.fontWeight = "bold"    //글씨굵기
+       }
+
+
+    </script>
+    
+</body>
+</html>

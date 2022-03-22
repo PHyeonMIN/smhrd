@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li id="li1">a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul>
+
+    <!--jquery 사용법-->
+    <!--1. 파일 다운로드 후 프로젝트에 넣어주는 방법-->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <!--2. CDN사용 : 분산되어 있는 JQUERY서버중 가장 가까운 곳에 접속-->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script> 3.2.1 -> latest 가장 최근버전 -->
+    <script>
+        //순수자바스크립트 사용시 id 선택자 지정
+        document.getElementById("li1")
+
+        //text() == innerText
+        console.log($("#li1").text())
+        //text() : 텍스트 요소 가지고 오는 방법
+        //text("바꾸고 싶은 값") : 텍스트 요소 수정하는 방법
+        $("ul>li:nth-child(1)").text("선택!")
+
+        //html() == innerHTMl : 태그 사이의 텍스트 + 태그 요소에 접근
+        $("li").html("<i>바꾸기</i>")
+    </script>
+    
+</body>
+</html>

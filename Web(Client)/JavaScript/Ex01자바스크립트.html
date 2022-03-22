@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#">빅데이터반</a>
+    <br><br>
+    <button id="btn1">디자인바꾸기 짠!</button>&nbsp&nbsp<button id="btn2">되돌리기 짠!</button>
+    <br>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+
+    <h1>오늘은 12/08일</h1>
+
+    <p>즐거운 JavaScript 수업입니닷!</p>
+
+    <!--script : 자바스크립트를 작성할 수 있는 영역 표시-->
+    <script>
+        //document : 현재 html문서 지칭
+        //addEventListener : 선택한 요소에 어떤 이벤트가 발생할때까지 기다림
+        
+        document.querySelector("#btn1").addEventListener('click', function(){
+            document.querySelector("body").style.backgroundColor = "yellow"
+            document.querySelector("body").style.color = "blue"
+        })
+        document.querySelector("#btn2").addEventListener('click', function(){
+           document.querySelector("body").style.backgroundColor = "white"
+           document.querySelector("body").style.color = "black"
+        })
+
+        //document.write(); - HTML문서 내에 출력
+        //console.log(); - console창에 출력
+        //alert(); - 알림 팝업창에 출력
+    </script>
+
+</body>
+</html>
