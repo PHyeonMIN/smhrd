@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;JDBC&apos; to &apos;WEBJDBC&apos;" description="Rename resource &apos;JDBC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JDBC" name="WEBJDBC" stamp="1638145561559" updateReferences="true"/>
-</session>

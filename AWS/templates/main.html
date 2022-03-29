@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <form action="http://172.30.1.27:5025/cal">
+      <input type="text" name="num1">
+      <input type="text" name="num2">
+
+      <input type="submit" value="GET방식 계산">
+   </form>
+
+
+   <form action="http://172.30.1.27:5025/cal" method="post">
+      <input type="text" name="num1">
+      <input type="text" name="num2">
+
+      <input type="submit" value="POST 계산">
+   </form>
+
+   <form action="http://172.30.1.27:5025/label" 
+   method="post" enctype="multipart/form-data">
+
+      <input type="file" name="file">
+      <input type="text" name="target" value="default">
+
+      <input type="submit" value="레이블 감지">
+
+   </form>
+   
+</body>
+</html>
